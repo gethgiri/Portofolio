@@ -2,11 +2,6 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var fs = require('fs');
-var client = require('./client.js');
-var Transmit = require('react-transmit');
-
-
 
 // Serve built files with static files middleware
 app.use(express.static(path.join(__dirname, 'public')));
