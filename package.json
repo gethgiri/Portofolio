@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node server.js && node ./bin/www"
   },
   "repository": {
     "type": "git"
