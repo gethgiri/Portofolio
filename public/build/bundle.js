@@ -3233,7 +3233,7 @@ var HomePage = function (_Component) {
 						),
 						_react2.default.createElement(
 							"div",
-							{ className: "w3-col s6 m6 l6" },
+							{ className: "w3-col s6 m6 l6", style: { paddingTop: "12%" } },
 							_react2.default.createElement(
 								"p",
 								{ className: "w3-center", style: { fontSize: "52px" } },
@@ -3248,7 +3248,7 @@ var HomePage = function (_Component) {
 							_react2.default.createElement(
 								"p",
 								{ className: "w3-center", style: { fontSize: "52px" } },
-								"UX-Designer ",
+								"UI-Designer ",
 								_react2.default.createElement("hr", null)
 							)
 						),
@@ -3302,7 +3302,7 @@ var HomePage = function (_Component) {
 									_react2.default.createElement(
 										"p",
 										{ className: "w3-left", style: { fontSize: "24px", marginLeft: "120px" } },
-										"My dream or goal whatever is to create a full application from A to z. From 0 to every thing like designing, frontend, Backend, hosting. And i also interested in cyber-security. I believe experience and very enthusiastic to learn new technologies."
+										"My dream or goal whatever is to create a full application from A to z. From 0 to every thing like designing, frontend, Backend, hosting. And i also interested in cyber-security. I am very enthusiastic to learn new technologies."
 									)
 								),
 								_react2.default.createElement(
@@ -3349,7 +3349,7 @@ var HomePage = function (_Component) {
 										_react2.default.createElement(
 											"label",
 											{ style: { fontSize: "24px" } },
-											"Here i mentioned some of my knowledge level of particular skills. I put it on my own knowledge"
+											"Here i mentioned some of my knowledge level of particular skills."
 										)
 									),
 									_react2.default.createElement(
@@ -3382,24 +3382,8 @@ var HomePage = function (_Component) {
 											{ className: "w3-light-grey" },
 											_react2.default.createElement(
 												"div",
-												{ className: "w3-container w3-green w3-center", style: { width: "75%" } },
-												"75%"
-											)
-										),
-										_react2.default.createElement("br", null),
-										_react2.default.createElement(
-											"label",
-											null,
-											"Python"
-										),
-										_react2.default.createElement("br", null),
-										_react2.default.createElement(
-											"div",
-											{ className: "w3-light-grey" },
-											_react2.default.createElement(
-												"div",
-												{ className: "w3-container w3-green w3-center", style: { width: "30%" } },
-												"30%"
+												{ className: "w3-container w3-green w3-center", style: { width: "80%" } },
+												"80%"
 											)
 										),
 										_react2.default.createElement("br", null),
@@ -3430,8 +3414,24 @@ var HomePage = function (_Component) {
 											{ className: "w3-light-grey" },
 											_react2.default.createElement(
 												"div",
-												{ className: "w3-container w3-green w3-center", style: { width: "80%" } },
-												"80%"
+												{ className: "w3-container w3-green w3-center", style: { width: "75%" } },
+												"75%"
+											)
+										),
+										_react2.default.createElement("br", null),
+										_react2.default.createElement(
+											"label",
+											null,
+											"Python"
+										),
+										_react2.default.createElement("br", null),
+										_react2.default.createElement(
+											"div",
+											{ className: "w3-light-grey" },
+											_react2.default.createElement(
+												"div",
+												{ className: "w3-container w3-green w3-center", style: { width: "30%" } },
+												"30%"
 											)
 										),
 										_react2.default.createElement("br", null),
@@ -3446,7 +3446,7 @@ var HomePage = function (_Component) {
 											{ className: "w3-light-grey" },
 											_react2.default.createElement(
 												"div",
-												{ className: "w3-container w3-green w3-center", style: { width: "80%" } },
+												{ className: "w3-container w3-green w3-center", style: { width: "30%" } },
 												"30%"
 											)
 										)
@@ -3473,7 +3473,7 @@ var HomePage = function (_Component) {
 								_react2.default.createElement(
 									"label",
 									{ style: { fontSize: "24px" } },
-									"For further more details about me . i attached my resume with it. please kindly have a look at this. may be i am the person you are looking for."
+									"For further more details about me . I attached my resume with it.Please kindly have a look at this.May be i am the person you are looking for."
 								),
 								_react2.default.createElement("br", null),
 								_react2.default.createElement("br", null),
@@ -3498,7 +3498,7 @@ var HomePage = function (_Component) {
 								_react2.default.createElement(
 									"label",
 									{ style: { fontSize: "24px" } },
-									"For further more details about me . i attached my curicullum vitae with it. please kindly have a look at this. may be i am the person you are looking for."
+									"For further more details about me . I attached my curicullum vitae with it.Please kindly have a look at this.May be i am the person you are looking for."
 								),
 								_react2.default.createElement("br", null),
 								_react2.default.createElement("br", null),
@@ -3572,7 +3572,7 @@ var HomePage = function (_Component) {
 										"h1",
 										{ className: "contact-highlight w3-center",
 											style: { color: "rgb(255, 255, 255)" } },
-										"CONTACT ME"
+										"PING ME"
 									),
 									_react2.default.createElement(
 										"div",
@@ -3581,16 +3581,80 @@ var HomePage = function (_Component) {
 											"div",
 											{ className: "contact-information" },
 											_react2.default.createElement(
-												"h3",
-												{ style: { color: "rgb(145, 145, 145)" } },
-												"Email : giriharan777@gmail.com ",
-												_react2.default.createElement("br", null),
-												"Mobile & Whats app : 7358873120",
-												_react2.default.createElement("br", null),
-												"Linked In: https://www.linkedin.com/in/giri-402a99134 ",
-												_react2.default.createElement("br", null),
-												" Github: https://github.com/gethgiri",
-												_react2.default.createElement("br", null)
+												"div",
+												{ className: "w3-row" },
+												_react2.default.createElement(
+													"div",
+													{ className: "w3-col s12 m5 l5" },
+													_react2.default.createElement(
+														"p",
+														{ style: { color: "rgb(145, 145, 145)", fontSize: "20px" } },
+														_react2.default.createElement(
+															"ul",
+															{ style: { margin: "0px", padding: "0px" } },
+															_react2.default.createElement(
+																"li",
+																{ className: "w3-left" },
+																_react2.default.createElement(
+																	"label",
+																	{ className: "w3-white" },
+																	"Email : giriharan777@gmail.com"
+																)
+															),
+															_react2.default.createElement("br", null),
+															_react2.default.createElement(
+																"li",
+																{ className: "w3-left" },
+																_react2.default.createElement(
+																	"label",
+																	{ className: "w3-white" },
+																	"Mobile & Whats app : 7358873120"
+																)
+															)
+														)
+													)
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "w3-col s12 m7 l7" },
+													_react2.default.createElement(
+														"p",
+														{ style: { color: "rgb(145, 145, 145)", fontSize: "20px" } },
+														_react2.default.createElement(
+															"ul",
+															{ style: { margin: "0px", padding: "0px" } },
+															_react2.default.createElement(
+																"li",
+																{ className: "w3-left" },
+																_react2.default.createElement(
+																	"label",
+																	{ className: "w3-white" },
+																	"Linked In: ",
+																	_react2.default.createElement(
+																		"a",
+																		{ href: "https://www.linkedin.com/in/giri-402a99134" },
+																		"https://www.linkedin.com/in/giri-402a99134 "
+																	)
+																)
+															),
+															_react2.default.createElement("br", null),
+															_react2.default.createElement(
+																"li",
+																{ className: "w3-left" },
+																_react2.default.createElement(
+																	"label",
+																	{ className: "w3-white" },
+																	"Github: ",
+																	_react2.default.createElement(
+																		"a",
+																		{ href: "https://github.com/gethgiri" },
+																		"https://github.com/gethgiri"
+																	)
+																)
+															)
+														)
+													)
+												)
 											)
 										)
 									)
@@ -3604,7 +3668,7 @@ var HomePage = function (_Component) {
 						_react2.default.createElement(
 							"label",
 							{ className: "w3-display-middle" },
-							"\xA9 2018 giriharan D"
+							"\xA9 Giriharan D"
 						),
 						_react2.default.createElement("br", null),
 						_react2.default.createElement("br", null),
