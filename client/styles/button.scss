@@ -1,0 +1,28 @@
+.portfolio-button-primary {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: none;
+    border: solid 1px #fff;
+    cursor: pointer;
+    padding: 20px 40px;
+    cursor: pointer;
+
+    &:hover {
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    &:active {
+        color: #68509f;
+        border: solid 1px #68509f;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    &:disabled {
+        background-color: #d0d8dc;
+        color: rgba(72, 90, 99, 0.26);
+        border: none;
+        cursor: not-allowed;
+    }
+}

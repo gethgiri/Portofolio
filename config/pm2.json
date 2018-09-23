@@ -1,0 +1,24 @@
+{
+    "apps": [{
+        "name": "ceegees_website",
+        "ignore_watch": ["node_modules"],
+        "script": "server.js",
+        "log_file": "./package-lock.json",
+        "merge_logs": true,
+        "log_date_format": "YYYY-MM-DD HH:mm Z",
+        "env_test": {
+            "NODE_ENV": "test",
+            "name":"ceegees_website",
+            "PORT": 3221, 
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "APP_HOST" :""
+        },
+        "env_production": {
+            "name":"ceegees_website_production",
+            "NODE_ENV": "production",
+            "PORT": 3221, 
+            "log_date_format": "YYYY-MM-DD HH:mm Z",
+            "APP_HOST" :""
+        }
+    }]
+}
