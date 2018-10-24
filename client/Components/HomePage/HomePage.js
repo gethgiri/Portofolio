@@ -154,7 +154,7 @@ class HomePage extends Component{
 						 		have a look at this.May be i am the person 
 						 		you are looking for.</label>
 						 		<br /><br />
-						 		<a href="upload/Resume.doc" download="Resume.doc">
+						 		<a href="upload/giriResumeUpdated.doc" download="giriResumeUpdated.doc">
 						 		<button className="portfolio-button-primary w3-button w3-center w3-hover-none"
 						 		 style={{border: "1px solid green", color: "green" }}>
 						 		 DOWNLOAD RESUME</button>
@@ -165,7 +165,7 @@ class HomePage extends Component{
 						 		have a look at this.May be i am the person 
 						 		you are looking for.</label>
 						 		<br /><br />
-						 		<a href="upload/curicullumVitae.doc" download="curicullumVitae.doc">
+						 		<a href="upload/giriCVUpdated.doc" download="giriCVUpdated.doc">
 						 		<button className="portfolio-button-primary w3-button w3-center w3-hover-none"
 						 		 style={{border: "1px solid green", color: "green" }}>
 						 		 DOWNLOAD CURICULLUM VITAE</button>
