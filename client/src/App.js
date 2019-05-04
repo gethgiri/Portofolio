@@ -81,7 +81,7 @@ class App extends Component{
             </div>
             <div className="w3-col s12 m12 l6">
                <h1 style={{marginLeft: "100px"}}>HOBBIES</h1>
-               <img src="./assets/ring.png" alt="logo" style={{marginLeft: "120px", maxWidth: "300px"}} />
+               <img src="./assets/ring.png" alt="logo" className="olympic" style={{maxWidth: "300px"}} />
                <br /><br />
                <label style={{marginLeft: "140px"}}>Sports is my only HOBBIES</label>
             </div>
@@ -177,10 +177,10 @@ class App extends Component{
                  <br />
                  <div className="w3-row">
                    <div className="w3-col  m12 l6 w3-center">
-                    <img src="./assets/giriwork1.png" className="detectOne" />
+                    <img src="./assets/giriwork1.png" className="detect" />
                    </div>
                    <div className="w3-col  m12 l6 w3-center">
-                    <img src="./assets/giriwork2.png" className="detectTwo" />
+                    <img src="./assets/giriwork2.png" className="detect" />
                    </div>
                  </div>
                  </div>

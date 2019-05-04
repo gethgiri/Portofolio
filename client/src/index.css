@@ -25,8 +25,8 @@ code {
     background: #00bfa5;
     padding: 10px;
 }
-.detectOne, .detectTwo {
-    width: 500px;
+.detect{
+    width: 100%;
     padding: 10px 10px;
 }
 .portfolio-navigation a {
@@ -142,6 +142,17 @@ mark{
     padding-bottom: 30px;
     padding-left: 305px;
     padding-right: 64px;
+}
+
+
+.olympic{
+  margin-left: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .olympic{
+    margin-left: 0px;
+  }
 }
 
 @media screen and (max-width: 800px) {
