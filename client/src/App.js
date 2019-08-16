@@ -147,7 +147,7 @@ class App extends Component{
                 have a look at this.May be i am the person 
                 you are looking for.</label>
                 <br /><br />
-                <a href="upload/Giri_Resume_short.doc" download="Giri_Resume_short.doc">
+                <a href="upload/Giri_Resume.doc" download="Giri_Resume.doc">
                 <button className="portfolio-button-primary w3-button w3-center w3-hover-none"
                  style={{border: "1px solid green", color: "green" }}>
                  DOWNLOAD RESUME</button>
