@@ -149,7 +149,7 @@ mark{
   margin-left: 120px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max`-width: 768px) {
   .olympic{
     margin-left: 0px;
   }

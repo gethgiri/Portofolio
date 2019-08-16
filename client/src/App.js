@@ -24,7 +24,7 @@ class App extends Component{
   }
 
   goTop(){
-    document.body.scrollTop = 0;
+      document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
   }
 
@@ -216,7 +216,7 @@ class App extends Component{
                           <li className="w3-left"  style={{marginBottom: "40px"}}>
                           <label className="w3-white">Linked In: <a href="https://www.linkedin.com/in/giri-402a99134" >https://www.linkedin.com/in/giri-402a99134 </a></label></li><br />
                           <li className="w3-left">
-                            <label className="w3-white">Github: <a href="https://github.com/gethgiri" >https://github.com/gethgiri</a></label>
+                            <label className="w3-white">Github: <a href="https://github.com/giri-7">https://github.com/giri-7</a></label>
                           </li>
                         </ul>
                       </p>
